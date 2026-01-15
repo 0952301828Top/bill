@@ -84,8 +84,8 @@ function simulateDownload() {
     showLoader();
     showNotification('กำลังดาวน์โหลดไฟล์ PDF...', 'info');
 
-    const pdfUrl = '6805_ใบแจ้งค่าไฟฟ้า.pdf'; // path ไฟล์
-    const fileName = '6805_ใบแจ้งค่าไฟฟ้า.pdf';
+    const pdfUrl = '6805.pdf'; // path ไฟล์
+    const fileName = '6805.pdf';
 
     const a = document.createElement('a');
     a.href = pdfUrl;
@@ -107,7 +107,7 @@ function simulateDownload() {
     //showLoader();
     showNotification('กำลังเตรียมพิมพ์ใบแจ้งค่าไฟฟ้า...', 'info');
 
-    const pdfUrl = '6805_ใบแจ้งค่าไฟฟ้า.pdf';
+    const pdfUrl = '6805.pdf';
 
     const printWindow = window.open(pdfUrl, '_blank');
 
